@@ -1,0 +1,36 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    line-height: 40px;
+}
+
+.header-top-left {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+img#google-logo {
+    width: 92px;
+    height: 30px;
+}
+
+div#logo {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+}
+
+form.search-bar {
+    display: inline-block;
+    margin-left: 40px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+input type="text" {
+    
+}
