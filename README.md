@@ -1,0 +1,1 @@
+The purpose of this page is to practice my HTML & CSS skills further. To do so, I will attempt to recreate the Google Search Results page.
