@@ -2,6 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 header {
     line-height: 40px;
 }
@@ -83,6 +88,10 @@ input[type=text] {
     color: rgb(95, 99, 104);
 }
 
+.search-results {
+    margin-bottom: 35px;
+}
+
 .search-result {
     margin-left: 170px;
     margin-bottom: 35px;
@@ -103,4 +112,51 @@ input[type=text] {
 .search-result-full-link {
     color: #202124;
     margin-bottom: 6px;
+}
+
+.mensen-vragen-ook {
+    margin-bottom: 35px;
+    width:650px;
+    margin-left: 170px;
+}
+
+.mensen-vragen-ook-top {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 44px;
+    border-top: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.mensen-vragen-ook-middle {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 44px;
+    border-top: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.mensen-vragen-ook-bottom {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 44px;
+    border: 1px solid #ebebeb;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 11px auto 11px 10px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 13px auto 13px 10px;
 }
