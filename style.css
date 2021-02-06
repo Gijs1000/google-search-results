@@ -6,9 +6,10 @@ header {
     line-height: 40px;
 }
 
-.header-top-left {
+.top-of-header {
     margin-top: 20px;
     margin-left: 30px;
+    display: inline-block;
 }
 
 
@@ -17,7 +18,7 @@ img#google-logo {
     height: 30px;
 }
 
-div#logo {
+#logo {
     display: inline-block;
     height: 30px;
     vertical-align: middle;
@@ -34,4 +35,19 @@ input[type=text] {
     border: 1px solid #dfe1e5;
     height: inherit;
     width: 690px;
+}
+
+.top-of-header-right {
+    float: right;
+}
+
+.bottom-of-header {
+    display: block;
+    height: 30px;
+    border-bottom: 1px solid red;
+}
+
+.google-products {
+    display: flex;
+    margin-left: 170px;
 }
