@@ -43,11 +43,64 @@ input[type=text] {
 
 .bottom-of-header {
     display: block;
-    height: 30px;
-    border-bottom: 1px solid red;
+    height: 40px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .google-products {
-    display: flex;
+    display: inline-flex;
+    width: 400px;
     margin-left: 170px;
+    justify-content: space-between;
+}
+
+.settings-and-tools {
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.menu-link {
+    color: #5f6368;
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.active-link {
+    color: rgb(58, 58, 245);
+    border-bottom: 2px solid rgb(58, 58, 245);
+    height: 38px;
+}
+
+#result-estimate {
+    line-height: 2rem;
+    padding-left: 170px;
+    margin-top: 2px;
+    font-size: 13px;
+    color: rgb(95, 99, 104);
+}
+
+.search-result {
+    margin-left: 170px;
+    margin-bottom: 35px;
+    width: 600px;
+    font-size: 14px;
+}
+
+.search-result p {
+    color: #4d5156;
+    margin-top: 6px;
+}
+
+.search-result a {
+    font-size: 20px;
+    color: #1a0DAB; 
+}
+
+.search-result-full-link {
+    color: #202124;
+    margin-bottom: 6px;
 }
