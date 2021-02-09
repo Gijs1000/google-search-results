@@ -160,3 +160,29 @@ h2 {
     font-weight: normal;
     margin: 13px auto 13px 10px;
 }
+
+.related-searches {
+    margin-left: 170px;
+    width: 652px;
+}
+
+.related-searches h1 {
+    margin-left: 0px;
+}
+
+.related-searches-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    line-height: 30px;
+    text-decoration: none
+}
+
+ul a {
+    text-decoration: none;
+}
